@@ -21,7 +21,7 @@ Using real NFL play-by-play data and tools like SQL, R, and Tableau, I identifie
 - `nfl_4th Down Dataset.csv`: Cleaned dataset
 - `Tableau_Dashboard.png`: Interactive Visual
 - `4th Down WP.Rmd`: Predictive modeling notebook in R
-- '4th Down WP.ipynd': Predictive Modeling Notebook in Python
+- `4th Down WP.ipynb`: Predictive Modeling Notebook in Python
 - `Capstone Summary Slide Deck.pdf`: Slide summary
 
 ## Highlights
