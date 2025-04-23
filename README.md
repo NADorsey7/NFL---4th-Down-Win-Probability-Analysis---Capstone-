@@ -1,12 +1,12 @@
 # 4th Down Decisions: NFL Analytics Capstone
 
-This project analyzes 4th down decision-making in the NFL from 2018–2023, comparing actual coaching decisions to win probability models.
+This project analyzes 4th down decision-making in the NFL from 2018 to 2023, comparing actual coaching decisions to win probability models.
 
 ## Overview
 Using real NFL play-by-play data and tools like SQL, R, and Tableau, I identified trends, coaching patterns, and potential inefficiencies in 4th down strategies.
 
 ### Key Objectives
-- Determine aggressiveness of NFL teams on 4th down
+- Determine aggressiveness of NFL teams on 4th down from 2018 to 2023
 - Measure alignment with analytics-based win probability models
 - Visualize tendencies by coach, distance, and field position
 
@@ -18,10 +18,11 @@ Using real NFL play-by-play data and tools like SQL, R, and Tableau, I identifie
 - **NFLfastR** – Data source
 
 ## Key Files
-- `nfl_4th_down_decision_data.csv`: Cleaned dataset
-- `Tableau_Dashboard.png`: Visualization sample
-- `analysis/win_probability_model.Rmd`: Predictive modeling notebook
-- `presentation/capstone_summary.pdf`: Slide summary
+- `nfl_4th Down Dataset.csv`: Cleaned dataset
+- `Tableau_Dashboard.png`: Interactive Visual
+- `4th Down WP.Rmd`: Predictive modeling notebook in R
+- '4th Down WP.ipynd': Predictive Modeling Notebook in Python
+- `Capstone Summary Slide Deck.pdf`: Slide summary
 
 ## Highlights
 - Identified a +2.8% average WP swing for aggressive teams like the Ravens
