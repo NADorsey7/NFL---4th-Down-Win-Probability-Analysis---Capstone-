@@ -1,0 +1,101 @@
+game_id,team,coach,down,to_go,yard_line,time_left_q4,decision,wp_actual,wp_optimal,result
+20231211,BUF,Sean McDermott,4,9,OWN 34,3:58,Punt,0.66,0.58,Failure
+20231025,CHI,Matt Eberflus,4,8,OPP 9,7:10,Go for it,0.31,0.38,Failure
+20231209,CHI,Matt Eberflus,4,6,OPP 29,0:58,Go for it,0.65,0.58,-
+20231227,NYJ,Robert Saleh,4,3,OPP 21,6:28,Punt,0.74,0.71,Success
+20231217,PHI,Nick Sirianni,4,8,OWN 19,1:02,Punt,0.54,0.69,Success
+20230924,DET,Dan Campbell,4,6,OPP 3,4:17,Punt,0.53,0.48,Success
+20231017,KC,Andy Reid,4,10,OWN 48,13:18,Punt,0.5,0.24,Success
+20230901,DAL,Mike McCarthy,4,3,OPP 27,14:42,Go for it,0.66,0.51,Success
+20231008,SF,Kyle Shanahan,4,2,OWN 22,12:09,Go for it,0.61,0.58,Failure
+20231210,NYJ,Robert Saleh,4,6,OWN 1,11:19,Punt,0.53,0.31,Success
+20231226,DAL,Mike McCarthy,4,5,OWN 26,2:22,Go for it,0.38,0.65,-
+20231208,MIA,Mike McDaniel,4,2,OWN 26,13:27,Go for it,0.65,0.44,Success
+20230904,DET,Dan Campbell,4,10,OPP 43,11:01,Punt,0.67,0.5,Success
+20231221,BAL,John Harbaugh,4,4,OWN 12,5:46,Go for it,0.78,0.69,-
+20230908,KC,Andy Reid,4,8,OWN 47,8:22,Punt,0.74,0.79,-
+20230917,BUF,Sean McDermott,4,3,OWN 10,0:11,Field Goal,0.76,0.57,Success
+20230921,MIA,Mike McDaniel,4,8,OWN 4,5:26,Go for it,0.75,0.6,-
+20230909,BAL,John Harbaugh,4,5,OPP 14,6:12,Field Goal,0.3,0.45,Failure
+20230916,BUF,Sean McDermott,4,1,OWN 29,3:21,Go for it,0.61,0.4,Failure
+20231115,DAL,Mike McCarthy,4,7,OWN 22,10:11,Go for it,0.68,0.51,Success
+20231109,DAL,Mike McCarthy,4,1,OPP 11,4:02,Go for it,0.43,0.66,Failure
+20231208,CHI,Matt Eberflus,4,6,OWN 5,4:06,Punt,0.36,0.53,-
+20231221,MIA,Mike McDaniel,4,9,OPP 19,8:59,Punt,0.76,0.42,Failure
+20231002,SF,Kyle Shanahan,4,4,OPP 1,4:04,Field Goal,0.39,0.42,Failure
+20231105,PHI,Nick Sirianni,4,10,OWN 27,13:11,Go for it,0.63,0.39,Success
+20230912,BAL,John Harbaugh,4,8,OPP 12,2:19,Punt,0.59,0.58,Success
+20231011,PHI,Nick Sirianni,4,9,OWN 30,0:54,Go for it,0.49,0.4,Failure
+20231018,DAL,Mike McCarthy,4,8,OWN 43,8:23,Go for it,0.23,0.58,Success
+20230915,BUF,Sean McDermott,4,6,OPP 37,11:02,Go for it,0.55,0.66,Success
+20231027,BAL,John Harbaugh,4,3,OPP 10,1:31,Go for it,0.41,0.78,Failure
+20230905,MIA,Mike McDaniel,4,9,OWN 9,8:53,Punt,0.36,0.21,Success
+20231020,SF,Kyle Shanahan,4,7,OPP 39,9:07,Punt,0.3,0.45,Success
+20231124,BUF,Sean McDermott,4,1,OPP 30,8:34,Go for it,0.36,0.74,Failure
+20230923,BAL,John Harbaugh,4,4,OWN 37,2:25,Go for it,0.8,0.46,-
+20231111,DET,Dan Campbell,4,6,OWN 1,13:55,Punt,0.21,0.21,-
+20231217,CHI,Matt Eberflus,4,8,OWN 43,4:32,Go for it,0.37,0.32,-
+20230908,NYJ,Robert Saleh,4,8,OPP 16,2:16,Go for it,0.31,0.38,Success
+20231125,NYJ,Robert Saleh,4,2,OPP 47,7:56,Punt,0.34,0.35,-
+20231210,CHI,Matt Eberflus,4,1,OWN 25,1:22,Punt,0.69,0.69,Failure
+20231106,NYJ,Robert Saleh,4,9,OWN 32,5:59,Go for it,0.22,0.28,Failure
+20231013,MIA,Mike McDaniel,4,6,OPP 49,3:31,Punt,0.5,0.65,-
+20231026,DET,Dan Campbell,4,8,OPP 41,12:43,Punt,0.51,0.22,Success
+20230917,CHI,Matt Eberflus,4,8,OPP 21,14:23,Punt,0.62,0.73,Success
+20231111,BAL,John Harbaugh,4,1,OPP 43,0:25,Go for it,0.42,0.73,-
+20231209,DET,Dan Campbell,4,9,OWN 32,2:41,Go for it,0.46,0.29,Failure
+20231201,BUF,Sean McDermott,4,1,OPP 41,0:04,Go for it,0.57,0.59,Failure
+20230914,BUF,Sean McDermott,4,4,OWN 14,4:19,Go for it,0.31,0.29,Failure
+20230928,BUF,Sean McDermott,4,7,OPP 3,0:09,Punt,0.63,0.79,-
+20231113,CHI,Matt Eberflus,4,4,OWN 28,5:05,Go for it,0.56,0.49,-
+20231108,NYJ,Robert Saleh,4,9,OPP 47,4:47,Punt,0.48,0.68,Success
+20231203,BUF,Sean McDermott,4,6,OPP 38,9:43,Go for it,0.61,0.69,-
+20231202,CHI,Matt Eberflus,4,3,OWN 17,9:10,Punt,0.75,0.69,-
+20231228,PHI,Nick Sirianni,4,3,OWN 33,12:10,Go for it,0.38,0.66,-
+20231227,PHI,Nick Sirianni,4,6,OPP 46,6:36,Punt,0.53,0.62,-
+20231208,BUF,Sean McDermott,4,2,OPP 3,2:17,Go for it,0.53,0.56,-
+20230903,NYJ,Robert Saleh,4,1,OWN 23,4:58,Punt,0.4,0.32,-
+20230904,CHI,Matt Eberflus,4,6,OWN 21,1:51,Go for it,0.62,0.46,Failure
+20230927,BUF,Sean McDermott,4,10,OPP 36,11:48,Field Goal,0.28,0.61,-
+20231103,MIA,Mike McDaniel,4,7,OWN 47,12:57,Go for it,0.58,0.48,-
+20230923,CHI,Matt Eberflus,4,7,OPP 31,5:13,Punt,0.71,0.35,-
+20231105,NYJ,Robert Saleh,4,2,OPP 9,5:25,Punt,0.67,0.69,Failure
+20230916,NYJ,Robert Saleh,4,6,OPP 1,11:13,Punt,0.75,0.56,-
+20231015,PHI,Nick Sirianni,4,1,OPP 33,2:18,Punt,0.2,0.56,-
+20231126,BUF,Sean McDermott,4,6,OWN 14,13:09,Go for it,0.51,0.51,Success
+20231020,PHI,Nick Sirianni,4,3,OWN 8,8:58,Go for it,0.72,0.76,Success
+20231008,KC,Andy Reid,4,10,OWN 49,10:07,Punt,0.6,0.24,Failure
+20231003,DAL,Mike McCarthy,4,4,OWN 16,4:35,Punt,0.56,0.57,Success
+20231217,CHI,Matt Eberflus,4,4,OWN 4,3:30,Punt,0.61,0.32,Success
+20231026,KC,Andy Reid,4,5,OWN 37,4:43,Punt,0.21,0.28,-
+20231226,MIA,Mike McDaniel,4,8,OPP 25,3:02,Go for it,0.24,0.37,-
+20230906,DET,Dan Campbell,4,7,OWN 37,2:00,Punt,0.57,0.28,-
+20230921,MIA,Mike McDaniel,4,6,OPP 20,10:22,Punt,0.57,0.34,Success
+20231105,BUF,Sean McDermott,4,9,OPP 48,1:58,Punt,0.48,0.51,Failure
+20231019,BUF,Sean McDermott,4,9,OPP 30,13:29,Field Goal,0.63,0.71,Failure
+20230917,SF,Kyle Shanahan,4,4,OPP 25,10:26,Punt,0.28,0.66,-
+20231107,KC,Andy Reid,4,4,OPP 40,11:22,Punt,0.34,0.29,-
+20230926,DAL,Mike McCarthy,4,9,OWN 6,10:37,Punt,0.76,0.41,Failure
+20231117,KC,Andy Reid,4,6,OPP 26,1:24,Punt,0.64,0.52,Success
+20230907,NYJ,Robert Saleh,4,1,OWN 3,10:28,Go for it,0.42,0.42,Success
+20231114,DAL,Mike McCarthy,4,6,OWN 5,14:19,Punt,0.5,0.73,-
+20231125,KC,Andy Reid,4,8,OWN 25,2:45,Punt,0.54,0.24,-
+20231113,BUF,Sean McDermott,4,1,OPP 36,5:03,Go for it,0.31,0.71,Failure
+20230906,KC,Andy Reid,4,3,OWN 28,7:13,Go for it,0.73,0.27,-
+20231025,NYJ,Robert Saleh,4,9,OWN 18,6:02,Go for it,0.64,0.62,Success
+20231009,BUF,Sean McDermott,4,10,OWN 20,8:51,Go for it,0.56,0.64,Failure
+20230926,BAL,John Harbaugh,4,2,OWN 31,7:52,Punt,0.66,0.71,Success
+20231116,BUF,Sean McDermott,4,9,OPP 18,8:52,Punt,0.7,0.43,Success
+20230910,PHI,Nick Sirianni,4,8,OPP 45,8:05,Go for it,0.39,0.68,-
+20230917,BAL,John Harbaugh,4,7,OPP 36,12:41,Punt,0.64,0.63,Success
+20231208,DAL,Mike McCarthy,4,2,OWN 23,13:02,Go for it,0.51,0.55,-
+20231108,CHI,Matt Eberflus,4,7,OPP 39,4:38,Go for it,0.59,0.5,-
+20231122,BAL,John Harbaugh,4,4,OPP 33,11:56,Go for it,0.52,0.4,Failure
+20231114,NYJ,Robert Saleh,4,1,OPP 23,0:01,Go for it,0.68,0.33,Success
+20230921,CHI,Matt Eberflus,4,2,OPP 22,6:44,Punt,0.58,0.22,-
+20230927,DET,Dan Campbell,4,10,OWN 27,5:26,Punt,0.31,0.21,Success
+20230901,KC,Andy Reid,4,9,OPP 21,10:12,Punt,0.39,0.24,-
+20230905,CHI,Matt Eberflus,4,10,OPP 13,3:53,Field Goal,0.43,0.74,-
+20230914,BUF,Sean McDermott,4,8,OWN 49,12:33,Punt,0.51,0.47,Success
+20231103,SF,Kyle Shanahan,4,7,OPP 20,10:54,Go for it,0.43,0.48,-
+20231127,BUF,Sean McDermott,4,8,OWN 8,13:11,Go for it,0.42,0.54,Failure
