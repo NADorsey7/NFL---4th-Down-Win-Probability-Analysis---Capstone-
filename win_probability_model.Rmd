@@ -1,0 +1,66 @@
+---
+title: "NFL 4th Down Win Probability Analysis"
+author: "Neil Dorsey"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This analysis builds a win probability model to evaluate the decision-making of NFL coaches on 4th down plays using simulated data.
+
+## Data Loading
+
+```{r}
+library(tidyverse)
+data <- read.csv("nfl_4th_down_decision_data.csv")
+head(data)
+```
+
+## Data Preparation
+
+```{r}
+data <- data %>%
+  mutate(
+    decision_factor = as.factor(decision),
+    result_factor = as.factor(result),
+    yard_position = ifelse(grepl("OWN", yard_line), "Own", "Opp"),
+    yard_number = as.numeric(gsub("[^0-9]", "", yard_line))
+  )
+```
+
+## Model Building
+
+```{r}
+# Predict optimal win probability based on situation
+model <- lm(wp_optimal ~ to_go + yard_number + decision_factor, data = data)
+summary(model)
+```
+
+## Evaluation of Coaching Decisions
+
+```{r}
+data <- data %>%
+  mutate(
+    wp_delta = round(wp_optimal - wp_actual, 3),
+    missed_opportunity = ifelse(wp_delta > 0.05 & decision != "Go for it", TRUE, FALSE)
+  )
+
+# Summary
+missed_summary <- data %>% filter(missed_opportunity == TRUE)
+nrow(missed_summary)
+head(missed_summary)
+```
+
+## Insights
+
+- Coaches left potential win probability on the table in multiple scenarios.
+- Model identified when “Go for it” had a higher expected value.
+- Further tuning and validation could improve predictive accuracy.
+
+## Conclusion
+
+This model provides a starting point to better understand and optimize 4th down decisions using data.
